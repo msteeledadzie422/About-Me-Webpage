@@ -12,19 +12,19 @@ function questionTree() {
     let question1 = confirm('Were you born between the years 1880 and 2022?');
     let message = "";
 
-    if(question1 = true) {
+    if(question1 == true) {
         let dinoRad = confirm('Amazing! Glad to know you are alive, ' + userName + '. Do you think Dinosaurs are rad?');
 
-        if(dinoRad = true) {
+        if(dinoRad == true) {
             let director = confirm('We also think Dinosaurs are rad, ' + userName + ' who is alive! Do you enjoy Steven Spielberg films?');
 
-            if(director = true) {
+            if(director == true) {
                 let dinoMov = confirm(userName + ' who is alive, you are really on a roll here. Does your favorite Steven S. film include Dinosaurs???!!??');
 
-                if(dinoMov = true) {
+                if(dinoMov == true) {
                     let finalQuestion = confirm(userName + 'you are truly on a roll! Last question: is your Steven Spielberg film Jurassic Park, released in 1993!?!?!?');
 
-                    if(finalQuestion = true) {
+                    if(finalQuestion == true) {
                         alert(userName + ', so glad you enjoy Jurassic Park! We think you are really going to enjoy our page 😉');
                     }
                     else {
@@ -45,11 +45,11 @@ function questionTree() {
         let possResponse = ('old','future')
         prompt('Wow! Are you incredibly old or from the future?')
         // Want to add code here that will accept only responses that includes either the word old or future /not both/ within a certain character limit
-        if(possResponse = 'old') {
+        if(possResponse == 'old') {
             message = 'We love that, please share your tips on leading such a long and healthy life!'
             alert(message)
         }
-        if(possResponse = 'future') {
+        else {
             message = 'Wow, how did you get here? Wormhole? We have so many questions'
             alert(message)
         }
