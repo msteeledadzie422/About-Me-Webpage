@@ -8,6 +8,7 @@ function yourName() {
     return document.write('Sayonara, ' + userName + 'we hope you enjoyed our About Me page, come back any time you like!');
 }
 
+//Since there's already some functions in place, I'll just say great job! -- TJ
 function questionTree() {
     let question1 = confirm('Were you born between the years 1880 and 2022?');
     let message = "";
