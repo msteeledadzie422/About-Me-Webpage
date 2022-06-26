@@ -19,5 +19,7 @@ border: 5px dashed #00FF00;
 }
 
 #dinoImage {
-    width: 20%;
+    width: 30%;
+    margin-right: 50%;
+    margin-left: 50%;
 }
