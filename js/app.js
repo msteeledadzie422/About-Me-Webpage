@@ -85,6 +85,48 @@ function questionTree() {
     default:
         alert('Please answer by typing "yes" or "no" into this question prompt. "y" or "n" are also acceptable!');
     }
+    
+    let question6 = prompt('Question 6: What is my favorite number? You get four guesses!');
+    for (let count = 1; count < 4; count++) {
+    if (answer6 > 22) {
+      question6 = prompt('Too high, guess again!');
+    } else if (question6 < 22) {
+      answer6 = prompt('Too low, guess again!');
+    } else if (question6 == 22) {
+      alert('Nice job, that is correct!!!');
+      i++;
+      count = 4;
+    } else {
+      answer6 = prompt('Make sure you guess a number!');
+    }
+    }
+
+    let question7 = prompt('Question 7: Guess one City I have lived in (not counting Bristol since you already know that one! ;)) - you have six tries!)');
+    let cities = ['New York', 'San Francisco', 'Denver', 'Chicago', 'Seattle', 'Cherry Hill'];
+
+    for (let j = 1; j < 6; j++) {
+        let k = 0;
+        while (k <= 5) {
+            if (question7 === cities[k]) {
+                alert('That\'s correct! I have lived in Cherry Hill, Seattle, Chicago, San Francisco, New York, and now Denver!');
+                i++;
+                j = 6;
+                break;
+            } else if (question7 !== cities[k]) {
+                k++;
+            }
+        }
+        if (question7 !== cities[k]) {
+            question7 = prompt('Sorry, that\'s incorrect, try again');
+        }
+    }
+    
+    if (i === 7) {
+    alert('Nice job, you scored: ' + i + ' points! A perfect score!');
+    } else {
+    alert('You scored: ' + i + ' points! Let\'s try again and better luck next time!');
+    }
+    
 }
 
 yourName()
