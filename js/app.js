@@ -27,7 +27,7 @@ function questionTree() {
     }
     
     let question2 = prompt('Ok, Question 2: Was I born in the US of A?');
-    switch (question1.toLowerCase()) {
+    switch (question2.toLowerCase()) {
     case 'yes':
     case 'y':
         alert('Bazinga! Correct!!!');
@@ -42,7 +42,7 @@ function questionTree() {
     }
     
     let question3 = prompt('Question 3: Am I a fan of both classic and (some) modern Hip-Hop?');
-    switch (question1.toLowerCase()) {
+    switch (question3.toLowerCase()) {
     case 'yes':
     case 'y':
         alert('Well done - correct!!');
@@ -57,7 +57,7 @@ function questionTree() {
     }
     
     let question4 = prompt('Question 4: Do I speak Spanish?');
-    switch (question1.toLowerCase()) {
+    switch (question4.toLowerCase()) {
     case 'yes':
     case 'y':
         alert('Sorry, that is incorrect - I speak French!!! (**I took French in High School/college and am now taking lessons as a refresher!!!)');
@@ -72,7 +72,7 @@ function questionTree() {
     }
     
     let question5 = prompt('Question 5: Did I grow up playing soccer as my primary sport?');
-    switch (question1.toLowerCase()) {
+    switch (question5.toLowerCase()) {
     case 'yes':
     case 'y':
         alert('Correctomundo!!!! iva la joga bonito!!!');
