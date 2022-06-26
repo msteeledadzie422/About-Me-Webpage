@@ -5,13 +5,13 @@ let userName = prompt('Hello! Would you mind sharing your name with us? Thank yo
 
 function yourName() {
     alert('Welcome, ' + userName + ', we hope you enjoy our About Me Page!')
-    return document.write('Sayonara, ' + userName + 'we hope you enjoyed our About Me page, come back any time you like!');
+    return document.write('Sayonara, ' + userName + ' we hope you enjoyed our About Me page, come back any time you like!');
 }
 
 function questionTree() {
     let i = 0;
     
-    let question1 = prompt('Let\'s play a guessing game! Answer the following questions correctly and win a special prize!!!! First Question: Is my favorite color orange?');
+    let question1 = prompt('Let\'s play a guessing game! Answer the following yes/no questions correctly and win a special prize!!!! First Question: Is my favorite color orange?');
     switch (question1.toLowerCase()) {
     case 'yes':
     case 'y':
