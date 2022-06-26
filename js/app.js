@@ -11,7 +11,7 @@ function yourName() {
 function questionTree() {
     let i = 0;
     
-    let question1 = prompt('Let\'s play a guessing game! Answer the following questions correctly and win a special price!!!! First Question: Is my favorite color orange?');
+    let question1 = prompt('Let\'s play a guessing game! Answer the following questions correctly and win a special prize!!!! First Question: Is my favorite color orange?');
     switch (question1.toLowerCase()) {
     case 'yes':
     case 'y':
@@ -88,16 +88,16 @@ function questionTree() {
     
     let question6 = prompt('Question 6: What is my favorite number? You get four guesses!');
     for (let count = 1; count < 4; count++) {
-    if (answer6 > 22) {
+    if (question6 > 22) {
       question6 = prompt('Too high, guess again!');
     } else if (question6 < 22) {
-      answer6 = prompt('Too low, guess again!');
+      question6 = prompt('Too low, guess again!');
     } else if (question6 == 22) {
       alert('Nice job, that is correct!!!');
       i++;
       count = 4;
     } else {
-      answer6 = prompt('Make sure you guess a number!');
+      question6 = prompt('Make sure you guess a number!');
     }
     }
 
