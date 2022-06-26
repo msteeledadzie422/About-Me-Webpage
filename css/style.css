@@ -2,18 +2,22 @@ h1 {
     color: blue;
   }
   
-  p {
-    color: red;
-  }
+p {
+color: black;
+}
   
-  section p.more-content {
-    background-color: #FF0000;
-  }
+section p.more-content {
+background-color: #FF0000;
+}
   
-  .more-content {
-    background-color: #0000FF;
-  }
+.more-content {
+background-color: #0000FF;
+}
   
-  #something-else {
-    border: 5px dashed #00FF00;
-  }
+#something-else {
+border: 5px dashed #00FF00;
+}
+
+#dinoImage {
+    width: 20%;
+}
