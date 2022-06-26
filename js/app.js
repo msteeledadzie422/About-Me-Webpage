@@ -126,7 +126,6 @@ function questionTree() {
     } else {
     alert('You scored: ' + i + ' points! Let\'s try again and better luck next time!');
     }
-    
 }
 
 yourName()
